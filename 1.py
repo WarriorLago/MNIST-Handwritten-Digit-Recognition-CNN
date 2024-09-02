@@ -85,3 +85,5 @@ print('运行时间：{:.1f}秒'.format(end - start))  # 程序运行时间
 correct = correct.data.cpu().item()  # 将保存于GPU中的数据读取到CPU存储器上
 correct = 1. * correct / len(test_loader.dataset)  # 计算准确率
 print('在测试集上的预测准确率：{:0.2f}%'.format(100 * correct))
+
+#测试1
